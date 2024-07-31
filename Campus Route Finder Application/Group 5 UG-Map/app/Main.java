@@ -1,13 +1,11 @@
 package app;
 
-import javax.swing.*;
-
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 import app.graph.Edge;
 import app.graph.Graph;
 import app.graph.Vertex;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.*;
 
 
 
@@ -47,7 +45,7 @@ public class Main {
 
         //adding the edges and getting the distances between vertices
         graph.addEdge(new Edge(mainGate, greatHall, 2400));
-        graph.addEdge(new Edge(mainGate,nb , 1200));
+        graph.addEdge(new Edge(mainGate, nb , 1200));
         graph.addEdge(new Edge(mainGate, balmeLibrary, 1100));
         graph.addEdge(new Edge(mainGate, jqb, 700));
         graph.addEdge(new Edge(mainGate, nnb, 1600));
@@ -90,7 +88,6 @@ public class Main {
         graph.addEdge(new Edge(jqb, legonHall, 1500));
         graph.addEdge(new Edge(jqb, nightMarket, 1600));
         graph.addEdge(new Edge(jqb, sarbahHall, 1400));
-
 
         graph.addEdge(new Edge(ugcs, nb, 550));
         graph.addEdge(new Edge(ugcs, balmeLibrary, 200));
